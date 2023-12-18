@@ -1,16 +1,20 @@
 {
     "stubPath": "/Users/DEV01/Desktop/odoo-dev/odoo-stubs",
     "extraPaths": [
+
         // Odoo
         "C:/Users/DEV01/Desktop/odoo-dev/odoo/odoo",
         "C:/Users/DEV01/Desktop/odoo-dev/odoo/odoo/addons",
         "/Users/DEV01/Desktop/odoo-dev/odoo/enterprise",
+        
         // Custom-Addons
         "/Users/DEV01/Desktop/odoo-dev/custom-addons",
+
         // Repositorios
         "/Users/DEV01/Documents/GitHub/Bision_consulting",
         "/Users/DEV01/Documents/GitHub/DEPLOG_v13",
         "/Users/DEV01/Documents/GitHub/deplogv15",
         "/Users/DEV01/Documents/GitHub/vztech",
+        
     ]
 }
