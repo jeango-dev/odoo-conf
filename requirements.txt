@@ -1,0 +1,10 @@
+debugpy
+pydevd-odoo
+validators
+pyopenssl
+xades
+lxml
+pycountry
+qrcode
+xmltodict
+wkhtmltopdf

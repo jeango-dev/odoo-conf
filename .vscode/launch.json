@@ -1,0 +1,40 @@
+{
+    // Use IntelliSense para saber los atributos posibles.
+    // Mantenga el puntero para ver las descripciones de los existentes atributos.
+    // Para más información, visite: https://go.microsoft.com/fwlink/?linkid=830387
+    "version": "0.2.0",
+    "configurations": [
+        {
+            "name": "Python: conexión remota",
+            "type": "python",
+            "request": "attach",
+            "connect": {
+                "host": "localhost",
+                "port": 8888
+            },
+            "pathMappings": [
+                {
+                    "localRoot": "${workspaceFolder}/addons",
+                    "remoteRoot": "/var/lib/odoo/addons"
+                },
+                {
+                    "localRoot": "/Users/DEV01/Documents/GitHub/odoo",
+                    "remoteRoot": "/var/lib/odoo/odoo/addons"
+                },
+                {
+                    "localRoot": "/Users/DEV01/Documents/GitHub/enterprise",
+                    "remoteRoot": "/var/lib/odoo/enterprise"
+                },
+                {
+                    "localRoot": "/Users/DEV01/Documents/GitHub/deplogv15",
+                    "remoteRoot": "/var/lib/odoo/deplogv15"
+                },
+                {
+                    "localRoot": "/Users/DEV01/Documents/GitHub/DEPLOG_v13",
+                    "remoteRoot": "/var/lib/odoo/DEPLOG_v13"
+                },
+            ],
+            "justMyCode": true
+        }
+    ]
+}
