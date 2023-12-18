@@ -12,7 +12,7 @@ services:
       - odoo-web-data:/var/lib/odoo
       - ${ODOO_SERVER}:/var/lib/odoo/odoo
       - ${ENTERPRISE}:/var/lib/odoo/enterprise
-      - ${ADDONS}:/var/lib/odoo/addons
+      - ${ADDONS}:/var/lib/odoo/custom-addons
       - ${DEPLOGV15}:/var/lib/odoo/deplogv15
     entrypoint: ${ENTRYPOINT}
   db:
