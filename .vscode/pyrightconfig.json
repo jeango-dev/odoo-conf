@@ -3,8 +3,8 @@
     "extraPaths": [
 
         // Odoo
-        "C:/Users/DEV01/Desktop/odoo-dev/odoo/odoo",
-        "C:/Users/DEV01/Desktop/odoo-dev/odoo/odoo/addons",
+        "/Users/DEV01/Desktop/odoo-dev/odoo/odoo",
+        "/Users/DEV01/Desktop/odoo-dev/odoo/odoo/addons",
         "/Users/DEV01/Desktop/odoo-dev/odoo/enterprise",
         
         // Custom-Addons
