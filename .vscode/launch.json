@@ -14,23 +14,23 @@
             },
             "pathMappings": [
                 {
-                    "localRoot": "/Users/DEV01/Desktop/odoo-dev/custom-addons",
+                    "localRoot": "/Users/DEV02/Documents//GitHub/custom-addons",
                     "remoteRoot": "/var/lib/odoo/addons"
                 },
                 {
-                    "localRoot": "/Users/DEV01/Documents/GitHub/odoo",
+                    "localRoot": "/Users/DEV02/Documents/GitHub/odoo",
                     "remoteRoot": "/var/lib/odoo/odoo/addons"
                 },
                 {
-                    "localRoot": "/Users/DEV01/Documents/GitHub/enterprise",
+                    "localRoot": "/Users/DEV02/Documents/GitHub/enterprise",
                     "remoteRoot": "/var/lib/odoo/enterprise"
                 },
                 {
-                    "localRoot": "/Users/DEV01/Documents/GitHub/deplogv15",
+                    "localRoot": "/Users/DEV02/Documents/GitHub/deplogv15",
                     "remoteRoot": "/var/lib/odoo/deplogv15"
                 },
                 {
-                    "localRoot": "/Users/DEV01/Documents/GitHub/DEPLOG_v13",
+                    "localRoot": "/Users/DEV02/Documents/GitHub/DEPLOG_v13",
                     "remoteRoot": "/var/lib/odoo/DEPLOG_v13"
                 },
             ],

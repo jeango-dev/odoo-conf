@@ -1,7 +1,7 @@
 version: "3.1"
 services:
   web:
-    image: odoo_15:${ODOO_VERSION}
+    image: odoo15:${ODOO_VERSION}
     depends_on:
       - db
     ports:
@@ -12,7 +12,7 @@ services:
       - odoo-web-data:/var/lib/odoo
       - ${ODOO_SERVER}:/var/lib/odoo/odoo
       - ${ENTERPRISE}:/var/lib/odoo/enterprise
-      - ${ADDONS}:/var/lib/odoo/custom-addons
+      - ${CUSTOM_ADDONS}:/var/lib/odoo/custom-addons
       - ${DEPLOGV15}:/var/lib/odoo/deplogv15
     entrypoint: ${ENTRYPOINT}
   db:
