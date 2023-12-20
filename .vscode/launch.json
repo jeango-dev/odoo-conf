@@ -14,7 +14,7 @@
             },
             "pathMappings": [
                 {
-                    "localRoot": "/Users/DEV02/Documents//GitHub/custom-addons",
+                    "localRoot": "/Users/DEV02/Documents/GitHub/custom-addons",
                     "remoteRoot": "/var/lib/odoo/addons"
                 },
                 {
