@@ -21,4 +21,9 @@ Instalar dependencias del requirements:
    docker exec -it ${ODOO_CONTAINER_NAME} pip3 install -r /requirements.txt
    docker exec -it odoo15 pip3 install -r /requirements.txt
 
+Ejecutar PSQL 
+
+   docker-compose exec db psql -U ${PG_USER} -d postgres
+   docker-compose exec db psql -U odoo -d postgres
+
 
