@@ -26,12 +26,12 @@ services:
       - '${PG_PORT}:5432'
     volumes:
       - odoo-db-data:/var/lib/postgresql/data/pgdata
-    pgadmin:
-        container_name: ${PGADMIN_CONTAINER_NAME}
-        image: ${PGADMIN_VERSION}
-        depends_on: 
+  pgadmin:
+    container_name: ${PGADMIN_CONTAINER_NAME}
+    image: ${PGADMIN_VERSION}
+    depends_on: 
             - db
-        environment:
+    environment:
             PGADMIN_DEFAULT_EMAIL: ${PGADMIN_USER}
             PGADMIN_DEFAULT_PASSWORD: ${PGADMIN_PASSWORD}
         ports:
