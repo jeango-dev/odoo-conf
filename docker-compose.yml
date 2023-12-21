@@ -1,6 +1,7 @@
 version: "3.1"
 services:
-    web:
+    web:    
+        container_name: ${ODOO_CONTAINER_NAME}
         image: odoo15:${ODOO_VERSION}
         depends_on:
         - db
@@ -16,6 +17,7 @@ services:
         - ${DEPLOGV15}:/var/lib/odoo/deplogv15
         entrypoint: ${ENTRYPOINT}
     db:
+        container_name: ${PG_CONTAINER_NAME}
         image: postgres:${PG_VERSION}
         environment:
         - POSTGRES_DB=postgres
