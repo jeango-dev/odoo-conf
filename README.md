@@ -11,6 +11,8 @@
 6. Configurar las variables en el .env
 7. Configurar el debug en vscode
 
+ARCHIVO .VSCODE: Ubicar en la carpeta raiz del proyecto o del espacio de trabajo
+
 Instalar dependencias del requirements:
 
 1. Copiar Dependencias al Contenedor

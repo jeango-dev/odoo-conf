@@ -1,0 +1,13 @@
+{
+    "stubPath": "/Users/DEV02/Documents/GitHub/odoo-stubs",
+    "extraPaths": [
+        "/Users/DEV02/Documents/GitHub/odoo",
+        "/Users/DEV02/Documents/GitHub/odoo/addons",
+        "/Users/DEV02/Documents/GitHub/enterprise",
+        "/Users/DEV02/Documents/GitHub/custom-addons",
+        "/Users/DEV02/Documents/GitHub/Bision_consulting",
+        "/Users/DEV02/Documents/GitHub/DEPLOG_v13",
+        "/Users/DEV02/Documents/GitHub/deplogv15",
+        "/Users/DEV02/Documents/GitHub/vztech",
+    ]
+}
