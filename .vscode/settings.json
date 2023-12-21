@@ -1,4 +1,0 @@
-{
-    "python.languageServer": "pyright",
-    "python.linting.pyrightConfigPath": "./pyrightconfig.json"
-}
