@@ -6,8 +6,8 @@ services:
         depends_on:
         - db
         ports:
-        - "${ODOO_PORT}:${ODOO_PORT}"
-        - "${DEBUGPY_PORT}:${DEBUGPY_PORT}"
+        - "${ODOO_PORT}:8069"
+        - "${DEBUGPY_PORT}:8888"
         volumes:
         - ./conf:/etc/odoo
         - odoo-web-data:/var/lib/odoo
