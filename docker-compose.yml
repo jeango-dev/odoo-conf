@@ -22,8 +22,20 @@ services:
       - POSTGRES_PASSWORD=${PG_PASSWORD}
       - POSTGRES_USER=${PG_USER}
       - PGDATA=/var/lib/postgresql/data/pgdata
+    ports:
+      - '${PG_PORT}:5432'
     volumes:
       - odoo-db-data:/var/lib/postgresql/data/pgdata
+    pgadmin:
+        container_name: ${PGADMIN_CONTAINER_NAME}
+        image: ${PGADMIN_VERSION}
+        depends_on: 
+            - db
+        environment:
+            PGADMIN_DEFAULT_EMAIL: ${PGADMIN_USER}
+            PGADMIN_DEFAULT_PASSWORD: ${PGADMIN_PASSWORD}
+        ports:
+        - "${PGADMIN_PORT}:80"
 volumes:
   odoo-web-data:
   odoo-db-data:
