@@ -24,7 +24,6 @@ Instalar dependencias del requirements:
 
 Ejecutar PSQL 
 
-   docker-compose exec db psql -U ${PG_USER} -d postgres
-   docker-compose exec db psql -U odoo -d postgres
-
+   docker exec -it ${PG_CONTAINER_NAME} psql -U {PG_USER} NAME_DATABASE
+   docker exec -it postgres psql -U admin deplog_v15
 
