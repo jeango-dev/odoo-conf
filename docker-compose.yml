@@ -13,8 +13,8 @@ services:
         - odoo-web-data:/var/lib/odoo
         - ${ODOO_SERVER}:/var/lib/odoo/odoo
         - ${ENTERPRISE}:/var/lib/odoo/enterprise
-        - ${EXTRA_ADDONS}:/var/lib/odoo/extra-addons
-        - ${DEPLOGV15}:/var/lib/odoo/deplogv15
+        - ${EXTRA_ADDONS}:/mnt/extra-addons
+        - ${DEPLOGV15}:/mnt/DEPLOG_v13
         entrypoint: ${ENTRYPOINT}
     db:
         container_name: ${PG_CONTAINER_NAME}
