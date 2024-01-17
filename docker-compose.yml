@@ -4,7 +4,7 @@ services:
         container_name: ${ODOO_CONTAINER_NAME}
         image: odoo:${ODOO_VERSION}
         depends_on:
-            - postgres
+            - db
         ports:
             - "${ODOO_PORT}:8069"
             - "${DEBUGPY_PORT}:8888"
