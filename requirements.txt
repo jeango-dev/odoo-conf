@@ -9,3 +9,5 @@ qrcode
 xmltodict
 wkhtmltopdf
 google_auth
+dos2unix
+zxcvbn
