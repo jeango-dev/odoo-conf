@@ -17,31 +17,24 @@ Instalar dependencias del requirements:
 
 1. Copiar Dependencias al Contenedor
    docker cp requirements.txt ${ODOO_CONTAINER_NAME}:/requirements.txt
-   docker cp requirements.txt odoo:/requirements.txt
+   Example: docker cp requirements.txt odoo:/requirements.txt
 2. Instalar Dependencias
    docker exec -it ${ODOO_CONTAINER_NAME} pip3 install -r /requirements.txt
-   docker exec -it odoo pip3 install -r /requirements.txt
+   Example: docker exec -it odoo pip3 install -r /requirements.txt
 
 Ejecutar SQL 
 
    docker exec -it ${PG_CONTAINER_NAME} psql -U ${PG_USER} {NAME_DATABASE}
-   docker exec -it postgres psql -U admin deplog_v15
+   Example: docker exec -it postgres psql -U admin deplog
 
 Actualizar módulos
 
 1. Abrir shell 
-   docker exec -it nombre_del_contenedor_odoo sh
+   docker exec -it ${ODOO_CONTAINER_NAME} sh
    docker exec -it odoo sh
-2. Ubicarse en carpeta de odoo-bin
-   cd var/lib/odoo/odoo
-3. Instalar dos2unix 
-   apt-get update
-   apt-get install dos2unix
-4. Ejecutar dos2unix en odoo-bin
-   dos2unix odoo-bin
-5. Actualizar módulos
-   ./odoo-bin -d nombre_de_tu_base_de_datos -u all --workers=0
-   ./odoo-bin -d deplog -u all --workers=0
+2. Ejecutar comando para actualizar base de datos y módulos
+   odoo -d {NAME_DATABASE} -u all --workers=0
+   Example: odoo -d deplog -u all --workers=0
 
 
 
