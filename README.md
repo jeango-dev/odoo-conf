@@ -43,13 +43,13 @@ Cuando modificas archivos XML (Vistas, Datos, Informes, etc.):
 
 1. Actualización necesaria: Si has realizado cambios en archivos XML, como vistas (.xml), datos (.xml), informes (.xml), etc., necesitarás actualizar el módulo para que esos cambios surtan efecto en tu instancia de Odoo.
 
-2. Procedimiento de actualización: Después de realizar cambios en archivos XML, debes actualizar el módulo utilizando el proceso de actualización estándar de Odoo. Esto puede hacerse a través de la interfaz de usuario de Odoo (actualizando el módulo desde la lista de módulos instalados) o mediante comandos de terminal (odoo-bin -u <nombre_del_módulo>).
+2. Procedimiento de actualización: Después de realizar cambios en archivos XML, debes actualizar el módulo utilizando el proceso de actualización estándar de Odoo. Esto puede hacerse a través de la interfaz de usuario de Odoo (actualizando el módulo desde la lista de módulos instalados) o mediante comandos de terminal (odoo -u <nombre_del_módulo>).
 
 Cuando modificas archivos Python (Modelos, Controladores, etc.):
 
 1. Actualización necesaria: Si has realizado cambios en archivos Python (.py), como modelos (models.py), controladores (controllers.py), etc., generalmente no necesitarás actualizar el módulo para que esos cambios surtan efecto en tu instancia de Odoo. Los archivos Python se recargan automáticamente por Odoo cada vez que se detectan cambios.
 
-2. Procedimiento de actualización: Después de realizar cambios en archivos Python, simplemente reinicia el servidor Odoo para que los cambios surtan efecto. Puedes hacerlo mediante el comando de terminal (odoo-bin o odoo.py) o mediante herramientas de administración de servicios según tu configuración.
+2. Procedimiento de actualización: Después de realizar cambios en archivos Python, simplemente reinicia el servidor Odoo para que los cambios surtan efecto. Puedes hacerlo mediante el comando de terminal (Compose Restart) o mediante herramientas de administración de servicios según tu configuración. (Los archivos Python se recargan automáticamente por Odoo pero a veces es necesario reiniciar el servidor para que surtan efecto)
 
 NOTAS ADICIONALES:
 
